@@ -22,7 +22,7 @@ const (
 	REPLICAS       = 2
 )
 
-func main() {
+func ClientSet() {
 	var kubeconfig *string
 	// home是家目录，如果取得家目录的值，就可以用来做默认值
 	if home := homedir.HomeDir(); home != "" {
