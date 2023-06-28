@@ -7,7 +7,7 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/clientcmd"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 	"sigs.k8s.io/yaml"
 )
 

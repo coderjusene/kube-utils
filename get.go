@@ -12,7 +12,7 @@ import (
 	v1scheduling "k8s.io/api/scheduling/v1"
 	v1storage "k8s.io/api/storage/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 )
 
 func (k *Deployment) Get(opt *metav1.GetOptions) (v1app.Deployment, error) {

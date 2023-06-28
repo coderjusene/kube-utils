@@ -3,7 +3,7 @@ package kube_utils
 import (
 	"context"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 )
 
 func (k *Deployment) Delete(opt *metav1.DeleteOptions) error {

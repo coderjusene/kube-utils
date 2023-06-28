@@ -14,7 +14,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/scheme"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 )
 
 func initCreate(yaml []byte) (obj interface{}, clientset *kubernetes.Clientset, err error) {

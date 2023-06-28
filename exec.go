@@ -6,7 +6,7 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/remotecommand"
 	"k8s.io/klog/v2"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 	"os"
 	"strings"
 )

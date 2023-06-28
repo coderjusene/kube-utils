@@ -11,7 +11,7 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/remotecommand"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 	"os"
 	"path"
 	"path/filepath"

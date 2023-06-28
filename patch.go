@@ -5,7 +5,7 @@ import (
 	v1app "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 )
 
 func (k *Deployment) Patch(data string, pt *types.PatchType, opt *metav1.PatchOptions) (v1app.Deployment, error) {

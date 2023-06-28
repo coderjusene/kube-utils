@@ -5,7 +5,7 @@ import (
 	"context"
 	"io"
 	v1core "k8s.io/api/core/v1"
-	"kube-center/kube-utils/client"
+	"github.com/coderjusene/kube-utils/client"
 )
 
 func (k *Pod) Logs(podLogOpts *v1core.PodLogOptions) (string, error) {
